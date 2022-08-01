@@ -18,7 +18,7 @@ body {
   background-color: #87509c;
 }
 .header .wrapper {
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,4 +73,67 @@ body {
 .button button:hover {
   box-shadow: 0 0 50px #d53a78;
   background-color: #eb692d;
+}
+
+/*Services
+=============*/
+.services {
+  background-color: #17c2a4;
+}
+
+.services__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.services__header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 70px;
+}
+.services__header p {
+  max-width: 50%;
+  line-height: 1.5em;
+}
+
+.services__title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #14a58c;
+}
+
+.services__items {
+  display: flex;
+  padding-top: 30px;
+}
+
+.services__item {
+  max-width: 25%;
+  justify-content: center;
+}
+.services__item img {
+  align-self: center;
+  margin: 0 auto;
+  display: block;
+}
+.services__item h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+.services__item p {
+  text-align: center;
+  padding-bottom: 70px;
+  line-height: 1.2em;
+}
+
+.services__item + .services__item {
+  padding-left: 25px;
 }/*# sourceMappingURL=style.css.map */
